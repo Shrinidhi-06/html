@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <meta name="description" content=""Portfolio of Shrinidhi, aspiring web developer skilled in HTML,CSS and JavaScript">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button onclick="toggleDarkMode()">Dark Mode</button>
+  <header>
+    <h1>Shrinidhi</h1>
+    <p>Aspiring web developer | Student</p>
+  </header>
+  <nav>
+    <a href="#about">about</a>
+    <a href="#projects">projects</a>
+    <a href="#contact">contact</a>
+  </nav>
+<section id="about">
+<h2>About Me</h2>
+<p>I am a student passionate about web development.I have been learning HTML,CSS and JavaScript</p>
+<p>I am currently doing my internship in Future intern</p>
+</section>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+  <h3>Portfolio Website</h3>
+  <p>This is my first portfolio built using HTML,CSS and JavaScript</p>
+  
+  <p><b>What i learned:</b>layout design,responsive design and basic Javascript</p>
+  <a href="https://github.com/Shrinidhi-06.github.io/FUTURE_FS_01">view code</a>
+</div>
+<div class="card">
+  <h3>calculator</h3>
+  <p>It is a simple calculator that performs basic operation</p>
+  
+  <p><b>What i learned:</b>Javascript function</p>
+</div>
+
+<div class="card">
+  <h3>To-Do list</h3>
+  <p>An app to add and delete daily task</p>
+  
+  <p><b>What i learned:</b>event handling</p>
+  </div>
+  </section>
+<button onclick="showProject()">View projects</button>
+<section id="contact">
+  <h2>Contact</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name" required><br><br>
+
+    <input type="email" placeholder="Your Email" required><br><br>
+
+    <textarea placeholder="Your Message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
